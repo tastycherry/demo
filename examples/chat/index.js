@@ -10,7 +10,7 @@ server.listen(port, function () {
 });
 
 // Routing
-app.use(express.static(__dirname + '/public'));
+app.use(express.static(__dirname + '/examples/chat/public'));
 
 // Chatroom
 
